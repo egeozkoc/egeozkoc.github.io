@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
-title: "Ege Özkoç's Personal Website"
+title: "Ege Ozkoc's Portfolio"
 description: "Welcome to my website!"
+markdown: kramdown
+css: style.css

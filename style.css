@@ -1,0 +1,22 @@
+/* Set a full-screen background image */
+body {
+    background: url('https://raw.githubusercontent.com/egeozkoc/egeozkoc.github.io/main/background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Make the header more readable */
+.page-header {
+    background-color: rgba(0, 0, 0, 0.6) !important; /* Dark overlay */
+}
+
+.page-header h1 {
+    color: white !important;
+    text-shadow: 2px 2px 5px black; /* Add shadow for readability */
+}
+
+/* Optional: Make text readable on top of the image */
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.8); /* Light transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
