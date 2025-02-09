@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Ege Özkoç"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile_photo.jpeg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
