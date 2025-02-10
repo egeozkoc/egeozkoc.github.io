@@ -7,7 +7,7 @@ author_profile: true
 
 ## My Projects
 
-Here are some of the key projects I have worked on, spanning **machine learning, biomedical signal processing**. This page is still under construction.
+Here are some of the key projects I have worked on, spanning **machine learning, biomedical signal processing, biomechanics and wearable devices**. This page is still under construction.
 
 ### Deep Learning From Scratch
 ![Neural Network](../assets/images/neural_network.jpeg)
