@@ -7,7 +7,7 @@ author_profile: true
 
 ## My Projects
 
-Here are some of the key projects I have worked on, spanning **machine learning, biomedical signal processing, and intelligent building systems**.
+Here are some of the key projects I have worked on, spanning **machine learning, biomedical signal processing**. This page is still under construction.
 
 ### 🧠 Brain-Computer Interfaces (BCI)
 **Project:** Neural Signal Decoding for Motor Control  
