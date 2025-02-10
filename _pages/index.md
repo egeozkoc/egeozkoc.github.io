@@ -7,25 +7,21 @@ author_profile: true
 
 ## Welcome to My Website!
 
-I’m **Ege Özkoç**, a master's student and researcher passionate about **machine learning, biomedical signal processing, and intelligent building systems**. This website serves as a platform to share my projects, research, and thoughts on various topics in **engineering, AI, and sustainability**.
+I specialize in machine learning, signal processing, and biomedical engineering, with a BSc in Electrical and Electronics Engineering from METU and an MSc in Medical Engineering from FAU Erlangen-Nürnberg. I have experience in pattern recognition, deep learning, Edge AI, and biomedical signal/image analysis (ECG, EMG, MRI) using MATLAB, Python, and C/C++. I am passionate about AI-driven healthcare solutions and aim to leverage advanced computational methods to improve medical diagnostics and patient outcomes.
 
 ### 🔬 Research Interests
-- **Brain-Computer Interfaces (BCIs)** – Decoding neural signals to control devices.
-- **Biomedical Signal Processing** – Analyzing high-dimensional physiological data.
+- **Biomedical Signal Processing** – Analyzing high-dimensional physiological data using machine learning.
 - **Embedded AI for Healthcare** – Optimizing deep learning models for edge devices.
-- **Energy-Efficient Buildings** – Smart technologies for sustainability.
 
 ### 🎓 Academic Background
-- **M.S. in Building Performance & Diagnostics** – Carnegie Mellon University
-- **M.Eng. in Medical Engineering** – Friedrich Alexander University
+- **M.S. in Medical Engineering, Medical Image and Data Processing** – Friedrich-Alexander-Universität Erlangen-Nürnberg
 - **B.S. in Electrical & Electronics Engineering** – Middle East Technical University
 
 ### 🛠 Technical Skills
-- **Programming**: Python, MATLAB, C++
-- **Machine Learning**: TensorFlow, PyTorch, ONNX
-- **Data Analysis**: Pandas, NumPy, Scikit-learn
-- **Building Simulations**: Rhino, EnergyPlus, ArcGIS
-- **Hardware**: Raspberry Pi, Embedded AI Deployment
+- **Programming**: Python, MATLAB, C/C++
+- **Machine Learning**: TensorFlow, TensorFlow Lite, PyTorch, ONNX
+- **Data Analysis**: NumPy, Pandas, Scikit-learn
+- **Hardware**: Arduino, Raspberry Pi
 
 ### 📬 Get in Touch
 If you're interested in **collaborating, discussing research, or just saying hi**, feel free to connect with me on **GitHub** or through [email](mailto:your.email@example.com)!

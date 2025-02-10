@@ -120,7 +120,7 @@ author:
                       Passionate about intelligent building systems 
                       and biomedical signal processing."
   location         : "Pittsburgh, USA"
-  email            : egeozkoc@gmail.com
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -140,6 +140,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/egeozkoc/"
 
 # Site Footer
 footer:
