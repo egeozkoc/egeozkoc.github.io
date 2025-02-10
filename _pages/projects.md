@@ -12,7 +12,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 ### Project A
 **Description:** abc
 - abc
-- abd
+- abc
 
 ### 🔬 Biomedical Signal Processing
 **Project:** Parkinson's Tremor Detection with Deep Learning  
