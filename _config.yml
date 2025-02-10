@@ -143,6 +143,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/egeozkoc/"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-alt"
+      url: "../assets/docs/Ege_Ozkoc_CV.pdf"
 
 # Site Footer
 footer:
