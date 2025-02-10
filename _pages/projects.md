@@ -20,7 +20,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 [GitHub Repo](https://github.com/egeozkoc/DeepLearning){:target="_blank"}
 
----
+***
 
 ### Predictive Gait Simulations of Leg Length Inequality
 
