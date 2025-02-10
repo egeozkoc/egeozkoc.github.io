@@ -25,8 +25,8 @@ description              : "Ege Özkoç's Personal Website."
 url                      : https://egeozkoc.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/profile_photo.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/profile_photo.jpeg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -115,8 +115,11 @@ analytics:
 author:
   name             : "Ege Özkoç"
   avatar           : "/assets/images/profile_photo.jpeg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : " Master's student and researcher in AI, 
+                      machine learning, and sustainable buildings.
+                      Passionate about intelligent building systems 
+                      and biomedical signal processing."
+  location         : "Pittsburgh, USA"
   email            :
   links:
     - label: "Email"
