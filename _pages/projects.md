@@ -33,4 +33,4 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 More projects will be added soon! Stay tuned.
 
-📬 **Interested in collaborating?** Feel free to reach out via [email](mailto:your.email@example.com) or check out my [GitHub](https://github.com/egeozkoc).
+📬 **Interested in collaborating?** Feel free to reach out via [email](mailto:egeozkoc@gmail.com) or [LinkedIn](https://www.linkedin.com/in/egeozkoc/).
