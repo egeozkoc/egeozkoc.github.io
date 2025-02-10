@@ -10,6 +10,7 @@ author_profile: true
 Here are some of the key projects I have worked on, spanning **machine learning, biomedical signal processing**. This page is still under construction.
 
 ### Deep Learning From Scratch
+![Neural Network](../assets/images/neural_network.jpeg)
 **Description:** I developed a deep learning project from scratch, using no skeletons and no LLM's.
 - Each neural network layer and methods for forward and backward pass are defined.
 - These are used to solve some basic classification tasks.
