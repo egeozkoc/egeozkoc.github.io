@@ -23,7 +23,8 @@ Check out the [GitHub repository](https://github.com/egeozkoc/DeepLearning) of t
 
 - I have completed research internship at Machine Learning and Data Analytics Lab at FAU Erlangen-Nürnberg on predictive gait simulations of leg length inequality.
 
-Here is my [internship report](../assets/docs/PredictiveGaitSimulationsofLegLengthInequalityReport.pdf).
+[Report](../assets/docs/PredictiveGaitSimulationsofLegLengthInequalityReport.pdf){:target="_blank"}
+
 
 
 
