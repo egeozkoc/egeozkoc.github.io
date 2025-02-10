@@ -24,6 +24,4 @@ I specialize in machine learning, signal processing, and biomedical engineering,
 - **Hardware**: Arduino, Raspberry Pi
 
 ### 📬 Get in Touch
-If you're interested in **collaborating, discussing research, or just saying hi**, feel free to connect with me on **GitHub** or through [email](mailto:your.email@example.com)!
-
-[🏠 Back to Home](/)
+If you're interested in **collaborating, discussing research, or just saying hi**, feel free to connect with me on **LinkedIn** or through [email](mailto:egeozkoc@gmail.com)!
