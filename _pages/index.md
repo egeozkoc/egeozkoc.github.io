@@ -14,8 +14,8 @@ I specialize in machine learning, signal processing, and biomedical engineering,
 - **Embedded AI for Healthcare** – Optimizing deep learning models for edge devices.
 
 ### Academic Background
-- **M.S. in Medical Engineering, Medical Image and Data Processing** – Friedrich-Alexander-Universität Erlangen-Nürnberg
-- **B.S. in Electrical & Electronics Engineering** – Middle East Technical University
+- **Friedrich-Alexander-Universität Erlangen-Nürnberg** – M.S. in Medical Engineering, Medical Image and Data Processing
+- **Middle East Technical University** – B.S. in Electrical & Electronics Engineering
 
 ### Technical Skills
 - **Programming**: Python, MATLAB, C/C++
