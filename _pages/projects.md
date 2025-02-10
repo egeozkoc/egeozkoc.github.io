@@ -11,13 +11,17 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 ### Deep Learning From Scratch
 ![Neural Network](../assets/images/neural_network.jpeg)
-**Description:** I developed a deep learning project from scratch, using no skeletons and no LLM's.
+**Description:** I developed a deep learning project from scratch, using no skeletons and no LLM's, as a part of the Deep Learning course given by Prof. Andreas Maier at FAU Erlangen-Nürnberg.
 - Basic neural network layers, optimization techniques, regularization methods, and recurrent layers are defined.
 - These are used implement basic neural network architectures to do classification.
 
 Check out the [GitHub repository](https://github.com/egeozkoc/DeepLearning) of the project!
 
-### 🔬 Real-Time Parkinson's Tremor Detection Using Embedded AI
+### Predictive Gait Simulations of Leg Length Inequality
+
+
+
+### Real-Time Parkinson's Tremor Detection Using Embedded AI
 **Description:** Parkinson's Tremor Detection
 - Designed a **real-time tremor classification model** for wearable devices.
 - Implemented **CNNs and frequency-based feature extraction**.
