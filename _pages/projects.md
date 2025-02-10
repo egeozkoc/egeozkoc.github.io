@@ -9,6 +9,8 @@ author_profile: true
 
 Here are some of the key projects I have worked on, spanning **machine learning, biomedical signal processing, biomechanics and wearable devices**. This page is still under construction.
 
+---
+
 ### Deep Learning From Scratch
 ![Neural Network](../assets/images/neural_network.jpeg){: width="450px"}
 
@@ -18,6 +20,8 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 [GitHub Repo](https://github.com/egeozkoc/DeepLearning){:target="_blank"}
 
+---
+
 ### Predictive Gait Simulations of Leg Length Inequality
 
 ![Leg Lenght Inequality](../assets/images/lli_animations.png)
@@ -26,13 +30,15 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 [Report](../assets/docs/PredictiveGaitSimulationsofLegLengthInequalityReport.pdf){:target="_blank"}
 
-
+---
 
 
 ### Real-Time Parkinson's Tremor Detection Using Embedded AI
 **Description:** Parkinson's Tremor Detection
 - Designed a **real-time tremor classification model** for wearable devices.
 - Implemented **CNNs and frequency-based feature extraction**.
+
+---
 
 More projects will be added soon! Stay tuned.
 
