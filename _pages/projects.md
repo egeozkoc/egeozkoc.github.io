@@ -27,7 +27,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 ![Leg Lenght Inequality](../assets/images/lli_animations.png)
 
 - I have completed research internship at Machine Learning and Data Analytics Lab at FAU Erlangen-Nürnberg on biomechanics.
-- I investigated the effect of the leg length inequality on the body by running predictive gait simulations on MATLAB.
+- I investigated the effect of the leg length inequality on the biomechanical dynamics of human movement by running predictive gait simulations on MATLAB.
 
 [Report](../assets/docs/PredictiveGaitSimulationsofLegLengthInequalityReport.pdf){:target="_blank"}
 
@@ -40,6 +40,9 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 - Implemented **CNNs and frequency-based feature extraction**.
 
 ---
+
+
+### Inverse Problem of Electrocardiography
 
 More projects will be added soon! Stay tuned.
 
