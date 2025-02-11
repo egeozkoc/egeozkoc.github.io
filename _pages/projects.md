@@ -21,7 +21,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 [GitHub Repo](https://github.com/egeozkoc/DeepLearning){:target="_blank"}
 
-***
+---
 
 ### Predictive Gait Simulations of Leg Length Inequality
 
@@ -36,9 +36,10 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 
 ### Real-Time Parkinson's Tremor Detection Using Embedded AI
+**Location:** Fraunhofer IIS, Medical Sensors and Analytics Group
 **Description:** Worked on a hand stabilizer glove project that can mitigate Parkinson’s disease tremors as they start, that could improve the quality of life for Parkinson's patients.
-- Worked in the Medical Sensors and Analytics Group of Fraunhofer IIS, Erlangen.
-- Trained and evaluated various algorithms from traditional Fourier transform-based algorithms to deep learning algorithms to detect Parkinson's tremors in real time. Selected algorithms are implemented on an embedded device through optimizations such as post-training quantization and pruning.Worked in the Medical Sensors and Analytics Group Worked on a hand stabilizer glove project that can mitigate Parkinson’s disease tremors as they start. Master's Thesis: Evaluation of Traditional and Machine Learning Algorithms for Real-time Parkinson's Tremor Detection Trained and evaluated various algorithms from traditional Fourier transform-based algorithms to deep learning algorithms to detect Parkinson's tremors in real time. Selected algorithms are implemented on an embedded device through optimizations such as post-training quantization and pruning.
+- Trained and evaluated various algorithms from traditional Fourier transform-based algorithms to deep learning algorithms to detect Parkinson's tremors in real time.
+- Selected algorithms are implemented on an embedded device through optimizations such as post-training quantization and pruning.
 - Master's Thesis: Evaluation of Traditional and Machine Learning Algorithms for Real-time Parkinson's Tremor Detection
 
 [Master's Thesis](../assets/docs/Master_s_Thesis_Ege_Ozkoc.pdf){:target="_blank"}
@@ -47,6 +48,9 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 
 ### Inverse Problem of Electrocardiography
+**Location:** Middle East Technical University, Heart Research Laboratory
+**Description:** The inverse problem of electrocardiography (ECG) is the problem of reconstructing electrical activity on the heart’s surface (epicardium) or even within the myocardium using body-surface potential measurements obtained from electrodes placed on the torso.
+---
 
 More projects will be added soon! Stay tuned.
 
