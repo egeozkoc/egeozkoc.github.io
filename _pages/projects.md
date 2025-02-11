@@ -14,6 +14,9 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 ### Deep Learning From Scratch
 ![Neural Network](../assets/images/neural_network.jpeg){: width="450px"}
 
+<small>Source: [freeCodeCamp](https://www.freecodecamp.org/news/want-to-know-how-deep-learning-works-heres-a-quick-guide-for-everyone-1aedeca88076/)</small>
+
+
 **Location:** FAU Erlangen-Nürnberg
 
 **Description:** I developed a deep learning project from scratch, using no skeletons and no LLM's, as a part of the Deep Learning course given by Prof. Andreas Maier at FAU Erlangen-Nürnberg.
@@ -56,7 +59,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 ![Inverse ECG](../assets/images/inverse_ECG.png){: width="300px"}
 
-Source: https://www.researchgate.net/figure/The-illustration-of-forward-and-inverse-ECG-problems_fig2_344270543
+<small>Source: [ResearchGate](https://www.researchgate.net/figure/The-illustration-of-forward-and-inverse-ECG-problems_fig2_344270543)</small>
 
 **Location:** Middle East Technical University, Heart Research Laboratory
 
