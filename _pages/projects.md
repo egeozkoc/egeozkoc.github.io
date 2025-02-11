@@ -27,7 +27,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 ### Predictive Gait Simulations of Leg Length Inequality
 
-![Leg Lenght Inequality](../assets/images/lli_animations.png)
+![Leg Lenght Inequality](../assets/images/lli_animations.png){: width="450px"}
 
 **Location:** FAU Erlangen-Nürnberg, Machine Learning and Data Analytics Lab
 
