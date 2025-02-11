@@ -54,7 +54,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 ### Inverse Problem of Electrocardiography
 
-![Inverse ECG](../assets/images/inverse_ECG.png){: width="450px"}
+![Inverse ECG](../assets/images/inverse_ECG.png){: width="300px"}
 
 Source: https://www.researchgate.net/figure/The-illustration-of-forward-and-inverse-ECG-problems_fig2_344270543
 
