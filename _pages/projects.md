@@ -13,6 +13,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 ### Deep Learning From Scratch
 ![Neural Network](../assets/images/neural_network.jpeg){: width="450px"}
+
 <small>Source: [freeCodeCamp](https://www.freecodecamp.org/news/want-to-know-how-deep-learning-works-heres-a-quick-guide-for-everyone-1aedeca88076/)</small>
 
 
@@ -57,6 +58,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 ### Inverse Problem of Electrocardiography
 
 ![Inverse ECG](../assets/images/inverse_ECG.png){: width="300px"}
+
 <small>Source: [ResearchGate](https://www.researchgate.net/figure/The-illustration-of-forward-and-inverse-ECG-problems_fig2_344270543)</small>
 
 **Location:** Middle East Technical University, Heart Research Laboratory
