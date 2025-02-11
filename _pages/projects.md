@@ -37,6 +37,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 ### Real-Time Parkinson's Tremor Detection Using Embedded AI
 **Location:** Fraunhofer IIS, Medical Sensors and Analytics Group
+
 **Description:** Worked on a hand stabilizer glove project that can mitigate Parkinson’s disease tremors as they start, that could improve the quality of life for Parkinson's patients.
 - Trained and evaluated various algorithms from traditional Fourier transform-based algorithms to deep learning algorithms to detect Parkinson's tremors in real time.
 - Selected algorithms are implemented on an embedded device through optimizations such as post-training quantization and pruning.
@@ -49,6 +50,7 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 ### Inverse Problem of Electrocardiography
 **Location:** Middle East Technical University, Heart Research Laboratory
+
 **Description:** The inverse problem of electrocardiography (ECG) is the problem of reconstructing electrical activity on the heart’s surface (epicardium) or even within the myocardium using body-surface potential measurements obtained from electrodes placed on the torso.
 ---
 
