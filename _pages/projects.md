@@ -15,8 +15,9 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 ![Neural Network](../assets/images/neural_network.jpeg){: width="450px"}
 
 **Description:** I developed a deep learning project from scratch, using no skeletons and no LLM's, as a part of the Deep Learning course given by Prof. Andreas Maier at FAU Erlangen-Nürnberg.
-- Basic neural network layers, optimization techniques, regularization methods, and recurrent layers are defined.
+- Basic neural network layers, optimization techniques, and regularization methods are defined.
 - These are used implement basic neural network architectures to do classification.
+- The project is fully documented with Google-style docstring.
 
 [GitHub Repo](https://github.com/egeozkoc/DeepLearning){:target="_blank"}
 
@@ -35,9 +36,12 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 
 ### Real-Time Parkinson's Tremor Detection Using Embedded AI
-**Description:** Parkinson's Tremor Detection
-- Designed a **real-time tremor classification model** for wearable devices.
-- Implemented **CNNs and frequency-based feature extraction**.
+**Description:** Worked on a hand stabilizer glove project that can mitigate Parkinson’s disease tremors as they start, that could improve the quality of life for Parkinson's patients.
+- Worked in the Medical Sensors and Analytics Group of Fraunhofer IIS, Erlangen.
+- Trained and evaluated various algorithms from traditional Fourier transform-based algorithms to deep learning algorithms to detect Parkinson's tremors in real time. Selected algorithms are implemented on an embedded device through optimizations such as post-training quantization and pruning.Worked in the Medical Sensors and Analytics Group Worked on a hand stabilizer glove project that can mitigate Parkinson’s disease tremors as they start. Master's Thesis: Evaluation of Traditional and Machine Learning Algorithms for Real-time Parkinson's Tremor Detection Trained and evaluated various algorithms from traditional Fourier transform-based algorithms to deep learning algorithms to detect Parkinson's tremors in real time. Selected algorithms are implemented on an embedded device through optimizations such as post-training quantization and pruning.
+- Master's Thesis: Evaluation of Traditional and Machine Learning Algorithms for Real-time Parkinson's Tremor Detection
+
+[Master's Thesis](../assets/docs/Master_s_Thesis_Ege_Ozkoc.pdf){:target="_blank"}
 
 ---
 
