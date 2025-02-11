@@ -54,7 +54,8 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 ### Inverse Problem of Electrocardiography
 
-![Inverse ECG](../assets/images/inverse_ecg.png)
+![Inverse ECG](../assets/images/inverse_ECG.png)
+
 Source: https://www.researchgate.net/figure/The-illustration-of-forward-and-inverse-ECG-problems_fig2_344270543
 
 **Location:** Middle East Technical University, Heart Research Laboratory
