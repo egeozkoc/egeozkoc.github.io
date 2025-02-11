@@ -14,6 +14,8 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 ### Deep Learning From Scratch
 ![Neural Network](../assets/images/neural_network.jpeg){: width="450px"}
 
+**Location:** FAU Erlangen-Nürnberg
+
 **Description:** I developed a deep learning project from scratch, using no skeletons and no LLM's, as a part of the Deep Learning course given by Prof. Andreas Maier at FAU Erlangen-Nürnberg.
 - Basic neural network layers, optimization techniques, and regularization methods are defined.
 - These are used implement basic neural network architectures to do classification.
@@ -26,6 +28,8 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 ### Predictive Gait Simulations of Leg Length Inequality
 
 ![Leg Lenght Inequality](../assets/images/lli_animations.png)
+
+**Location:** FAU Erlangen-Nürnberg, Machine Learning and Data Analytics Lab
 
 - I have completed research internship at Machine Learning and Data Analytics Lab at FAU Erlangen-Nürnberg on biomechanics.
 - I investigated the effect of the leg length inequality on the biomechanical dynamics of human movement by running predictive gait simulations on MATLAB.
