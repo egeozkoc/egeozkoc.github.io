@@ -62,6 +62,11 @@ Source: https://www.researchgate.net/figure/The-illustration-of-forward-and-inve
 
 **Description:** The inverse problem of electrocardiography (ECG) is the problem of reconstructing electrical activity on the heart’s surface (epicardium) or even within the myocardium using body-surface potential measurements obtained from electrodes placed on the torso.
 
+- Worked on the "ClinECGI" project, evaluating the performance of noninvasive electrocardiographic imaging for localizing premature ventricular contractions.
+- Applied registration and interpolation methods to transfer epicardial data between geometries in MATLAB.
+- Solved the inverse problem of electrocardiography using Bayesian MAP estimation with simulated epicardial data.
+- Explored Bayesian estimation methods for inverse electrocardiographic imaging, focusing on prior model selection and noise reduction techniques.
+
 **Conference Papers:**
 
 [Prior Model Selection in Bayesian MAP Estimation- Based ECG Reconstruction](../assets/docs/Prior_Model_Selection_in_Bayesian_MAP_Estimation-Based_ECG_Reconstruction.pdf){:target="_blank"}
