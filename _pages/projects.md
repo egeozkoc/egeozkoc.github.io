@@ -52,6 +52,13 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 **Location:** Middle East Technical University, Heart Research Laboratory
 
 **Description:** The inverse problem of electrocardiography (ECG) is the problem of reconstructing electrical activity on the heart’s surface (epicardium) or even within the myocardium using body-surface potential measurements obtained from electrodes placed on the torso.
+
+**Conference Papers:**
+
+[Prior Model Selection in Bayesian MAP Estimation- Based ECG Reconstruction](../assets/docs/Prior_Model_Selection_in_Bayesian_MAP_Estimation-Based_ECG_Reconstruction.pdf){:target="_blank"}
+
+[Bayesian MAP solution of the Inverse ECG problem with Sinus Rhythm Data: Evaluation of Simulated Training Sets (In Turkish)”](../assets/docs/Bayesian_MAP_solution_of_the_Inverse_ECG_problem_with_Sinus_Rhythm_Data_Evaluation_of_Simulated_Training_Sets.pdf){:target="_blank"}
+
 ---
 
 More projects will be added soon! Stay tuned.
