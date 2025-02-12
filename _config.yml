@@ -115,10 +115,7 @@ analytics:
 author:
   name             : "Ege Özkoç"
   avatar           : "/assets/images/profile.jpeg"
-  bio              : " Master's student and researcher in AI, 
-                      machine learning, and sustainable buildings.
-                      Passionate about intelligent building systems 
-                      and biomedical signal processing."
+  bio              : 
   location         : "Pittsburgh, USA"
   email            :
   links:
