@@ -17,5 +17,3 @@ I specialize in machine learning, signal processing, and biomedical engineering,
 MATLAB, Simulink, Python, C / C++, Git, Arduino, Raspberry Pi, Computer Aided Drawing Siemens NX, LTSpice,
 Intel Quartus, Verilog HDL, Keysight VEE, Microsoft Office (Excel, Word, PowerPoint), LaTeX
 
-### Get in Touch
-If you're interested in **collaborating, discussing research, or just saying hi**, feel free to connect with me on **LinkedIn** or through [email](mailto:egeozkoc@gmail.com)!
