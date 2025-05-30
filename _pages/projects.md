@@ -11,6 +11,16 @@ Here are some of the key projects I have worked on, spanning **machine learning,
 
 ---
 
+### Streamlit Clustering Toolbox
+
+**Location:** Pittsburgh
+
+**Description:** An interactive Streamlit app for exploratory clustering analysis. Upload your dataset, select features, preprocess data, apply dimensionality reduction (PCA), and explore multiple clustering algorithms (KMeans, GMM, DBSCAN, Agglomerative, Spectral). Includes visualizations (Elbow plot, dendrogram, PCA, t-SNE) and CSV export of labeled data.
+
+[Clustering Toolbox](https://clustering-toolbox.streamlit.app/){:target="_blank"}
+
+---
+
 ### Deep Learning From Scratch
 ![Neural Network](../assets/images/neural_network.jpeg){: width="450px"}
 
