@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Ege Ozkoc"
 title_separator          : "-"
-subtitle                 : "Machine Learning · Biomedical AI · Efficient Systems"
+subtitle                 :
 name                     : "Ege Ozkoc"
 description              : "Ege Ozkoc is a PhD student in Electrical and Computer Engineering at the University of Pittsburgh, working on machine learning, biomedical signals, and efficient AI systems."
 url                      : https://egeozkoc.github.io

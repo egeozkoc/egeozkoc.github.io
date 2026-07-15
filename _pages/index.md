@@ -15,6 +15,15 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   </div>
 </header>
 
+<section class="content-section education-section">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>University of Pittsburgh</strong>, PhD in Electrical and Computer Engineering, 2025–present</li>
+    <li><strong>FAU Erlangen-Nürnberg</strong>, MSc in Medical Engineering, 2022–2024</li>
+    <li><strong>Middle East Technical University</strong>, BSc in Electrical and Electronics Engineering, 2016–2022</li>
+  </ul>
+</section>
+
 <section id="research" class="content-section">
   <h2>Research</h2>
   <div class="entry">
@@ -27,7 +36,7 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   </div>
   <div class="entry">
     <p class="entry__date">2020–2022</p>
-    <div><h3>Inverse electrocardiography</h3><p>At Middle East Technical University, I worked on noninvasive electrocardiographic imaging, Bayesian MAP estimation, and prior-model selection for ECG reconstruction.</p></div>
+    <div><h3>Middle East Technical University</h3><p>I worked on noninvasive electrocardiographic imaging, Bayesian MAP estimation, and prior-model selection for ECG reconstruction.</p></div>
   </div>
 </section>
 
@@ -35,8 +44,8 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   <h2>Selected software</h2>
   <ul class="project-list">
     <li><a href="https://github.com/egeozkoc/mini-numpy" target="_blank" rel="noopener">mini-numpy</a> — a NumPy-like N-dimensional array library in modern C++, with Python bindings through pybind11.</li>
-    <li><a href="https://github.com/egeozkoc/deep-learning-from-scratch" target="_blank" rel="noopener">Deep learning from scratch</a> — a NumPy/SciPy neural-network framework with manually implemented forward and backward passes.</li>
-    <li><a href="https://github.com/egeozkoc/murmur" target="_blank" rel="noopener">Murmur</a> — a local macOS dictation application built around Whisper and MLX.</li>
+    <li><a href="https://github.com/egeozkoc/deep-learning-from-scratch" target="_blank" rel="noopener">deep-learning-from-scratch</a> — a NumPy/SciPy neural-network framework with manually implemented forward and backward passes.</li>
+    <li><a href="https://github.com/egeozkoc/murmur" target="_blank" rel="noopener">murmur</a> — a local macOS dictation application built around Whisper and MLX.</li>
   </ul>
 </section>
 
@@ -47,13 +56,4 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
     <li><strong>E. Ozkoc</strong> and Y. Serinagaoglu Dogrusoz. “Bayesian MAP Solution of the Inverse ECG Problem with Sinus Rhythm Data: Evaluation of Simulated Training Sets.” <em>IEEE SIU</em>, 2022. <a href="https://doi.org/10.1109/SIU55565.2022.9864708" target="_blank" rel="noopener">DOI</a></li>
     <li><strong>E. Ozkoc</strong>, E. Sunger, K. Ugurlu, and Y. Serinagaoglu Dogrusoz. “Prior Model Selection in Bayesian MAP Estimation-Based ECG Reconstruction.” <em>Measurement</em>, 2021. <a href="https://doi.org/10.23919/Measurement52780.2021.9446831" target="_blank" rel="noopener">DOI</a></li>
   </ol>
-</section>
-
-<section class="content-section education-section">
-  <h2>Education</h2>
-  <ul>
-    <li><strong>University of Pittsburgh</strong>, PhD in Electrical and Computer Engineering, 2025–present</li>
-    <li><strong>FAU Erlangen-Nurnberg</strong>, MSc in Medical Engineering, 2022–2024</li>
-    <li><strong>Middle East Technical University</strong>, BSc in Electrical and Electronics Engineering, 2016–2022</li>
-  </ul>
 </section>
