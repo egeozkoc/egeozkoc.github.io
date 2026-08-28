@@ -179,25 +179,26 @@ body,
 
 .entry__logo {
   align-items: center;
+  border-radius: 6px;
+  box-sizing: border-box;
   display: flex;
   height: 44px;
   justify-content: center;
+  padding: 4px;
   width: 44px;
 }
 
+/* Square marks are capped by height, wide wordmarks by width. */
 .entry__logo img {
   display: block;
-  height: 36px;
+  height: 100%;
   object-fit: contain;
-  width: 36px;
+  width: 100%;
 }
 
 /* Dark institutional marks need a light chip to stay legible on a dark page. */
 @mixin logo-chip {
   background: #fff;
-  border-radius: 6px;
-  box-sizing: border-box;
-  padding: 4px;
 }
 
 :root[data-theme="dark"] .entry__logo {
@@ -219,6 +220,12 @@ body,
   white-space: nowrap;
 }
 
+.entry__role {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0 0 0.4rem;
+}
+
 .entry h3 {
   color: var(--ink);
   font-size: 1rem;
@@ -226,14 +233,14 @@ body,
   margin: 0 0 0.35rem;
 }
 
-.entry p:not(.entry__date),
+.entry p:not(.entry__date):not(.entry__role),
 .project-list li,
 .publication-list li {
   font-size: 0.96rem;
   line-height: 1.65;
 }
 
-.entry p:not(.entry__date) {
+.entry p:not(.entry__date):not(.entry__role) {
   margin: 0;
 }
 
@@ -318,12 +325,8 @@ body,
 
   .entry__logo {
     height: 38px;
+    padding: 3px;
     width: 38px;
-  }
-
-  .entry__logo img {
-    height: 32px;
-    width: 32px;
   }
 
   .entry__date {
