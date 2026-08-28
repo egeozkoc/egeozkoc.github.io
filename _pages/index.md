@@ -53,12 +53,15 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   </div>
 </section>
 
-<section class="content-section">
-  <h2>Selected software</h2>
+<section id="projects" class="content-section">
+  <h2>Projects</h2>
   <ul class="project-list">
     <li><a href="https://github.com/egeozkoc/mini-numpy" target="_blank" rel="noopener">mini-numpy</a> — a NumPy-like N-dimensional array library in modern C++, with Python bindings through pybind11.</li>
-    <li><a href="https://github.com/egeozkoc/deep-learning-from-scratch" target="_blank" rel="noopener">deep-learning-from-scratch</a> — a NumPy/SciPy neural-network framework with manually implemented forward and backward passes.</li>
-    <li><a href="https://github.com/egeozkoc/murmur" target="_blank" rel="noopener">murmur</a> — a local macOS dictation application built around Whisper and MLX.</li>
+    <li><a href="https://github.com/egeozkoc/deep-learning-from-scratch" target="_blank" rel="noopener">deep-learning-from-scratch</a> — a NumPy/SciPy neural-network framework with manually implemented forward and backward passes, covering convolutional and recurrent layers, batch normalization, and Adam.</li>
+    <li><a href="https://github.com/egeozkoc/lora-from-scratch" target="_blank" rel="noopener">lora-from-scratch</a> — a minimal LoRA implementation in PyTorch: the low-rank adapter, injection into existing linear layers, and weight merging, with small fine-tuning experiments.</li>
+    <li><a href="https://github.com/egeozkoc/murmur" target="_blank" rel="noopener">murmur</a> — a local macOS dictation application built around Whisper, GPU-accelerated with MLX and running fully offline.</li>
+    <li><a href="https://github.com/egeozkoc/clustering-toolbox" target="_blank" rel="noopener">clustering-toolbox</a> — a Streamlit application for clustering and exploring tabular data, with KMeans, GMM, and DBSCAN alongside PCA and t-SNE views.</li>
+    <li>Open-source contributions to <a href="https://github.com/bitsandbytes-foundation/bitsandbytes/pulls?q=is%3Apr+author%3Aegeozkoc" target="_blank" rel="noopener">bitsandbytes</a>, including fixes to LAMB optimizer parameter handling and to blockwise quantization on non-contiguous CPU tensors.</li>
   </ul>
 </section>
 
