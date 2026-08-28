@@ -19,17 +19,17 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   <h2>Education</h2>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/pitt.svg" alt="University of Pittsburgh" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>University of Pittsburgh</h3><p>PhD in Electrical and Computer Engineering</p></div>
+    <div class="entry__body"><h3>University of Pittsburgh</h3><p class="entry__role">PhD in Electrical and Computer Engineering</p></div>
     <p class="entry__date">2025–present</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/fau.svg" alt="Friedrich-Alexander-Universität Erlangen-Nürnberg" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>FAU Erlangen-Nürnberg</h3><p>MSc in Medical Engineering</p></div>
+    <div class="entry__body"><h3>FAU Erlangen-Nürnberg</h3><p class="entry__role">MSc in Medical Engineering</p></div>
     <p class="entry__date">2022–2024</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/metu.svg" alt="Middle East Technical University" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>Middle East Technical University</h3><p>BSc in Electrical and Electronics Engineering</p></div>
+    <div class="entry__body"><h3>Middle East Technical University</h3><p class="entry__role">BSc in Electrical and Electronics Engineering</p></div>
     <p class="entry__date">2016–2022</p>
   </div>
 </section>
@@ -38,32 +38,32 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   <h2>Experience</h2>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/pitt.svg" alt="University of Pittsburgh" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>University of Pittsburgh</h3><p class="entry__role">Signal Processing and Statistical Learning Lab</p><p>I am developing evidence-grounded methods for explaining AI-ECG model outputs with LLMs. The explanations are constrained by model evidence, including saliency maps and SHAP attributions, rather than used for independent clinical diagnosis. I am the first-named inventor on a U.S. provisional patent for the framework.</p></div>
+    <div class="entry__body"><h3>University of Pittsburgh</h3><p class="entry__role">Signal Processing and Statistical Learning Lab</p></div>
     <p class="entry__date">2025–present</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/fraunhofer.svg" alt="Fraunhofer IIS" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>Fraunhofer IIS</h3><p class="entry__role">Medical Sensors and Analytics Group</p><p>I developed a lightweight 1D CNN for Parkinson's tremor detection from wrist-worn IMU data, for a hand-stabilizing glove that reacts to tremor onset. Under subject-independent validation it reached an AUC above 0.90, against 0.68–0.75 for FFT, SVM, and random-forest baselines; quantization and structured pruning then reduced its size by about 75% with under 0.1% accuracy loss.</p></div>
+    <div class="entry__body"><h3>Fraunhofer IIS</h3><p class="entry__role">Medical Sensors and Analytics Group</p></div>
     <p class="entry__date">2024</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/fau.svg" alt="Friedrich-Alexander-Universität Erlangen-Nürnberg" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>FAU Erlangen-Nürnberg</h3><p class="entry__role">Machine Learning and Data Analytics Lab</p><p>I ran predictive gait simulations of leg-length inequality in MATLAB, and prepared the Python exercises for the Biomedical Signal Analysis course as a student assistant.</p></div>
+    <div class="entry__body"><h3>FAU Erlangen-Nürnberg</h3><p class="entry__role">Machine Learning and Data Analytics Lab</p></div>
     <p class="entry__date">2023–2024</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/uk-erlangen.svg" alt="Universitätsklinikum Erlangen" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>Universitätsklinikum Erlangen</h3><p class="entry__role">Department of Radiology</p><p>I built neural-network pipelines for virtual contrast-enhanced breast MRI, preprocessing scans with SimpleITK and organizing patient data with Pandas.</p></div>
+    <div class="entry__body"><h3>Universitätsklinikum Erlangen</h3><p class="entry__role">Department of Radiology</p></div>
     <p class="entry__date">2023</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/aselsan.svg" alt="ASELSAN" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>ASELSAN</h3><p class="entry__role">Defense Systems Technologies Division</p><p>I built a MATLAB tool that visualized missile trajectory and orientation from experimental position and angle data.</p></div>
+    <div class="entry__body"><h3>ASELSAN</h3><p class="entry__role">Defense Systems Technologies Division</p></div>
     <p class="entry__date">2021</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/metu.svg" alt="Middle East Technical University" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>Middle East Technical University</h3><p class="entry__role">Heart Research Laboratory</p><p>I worked on the ClinECGI project, evaluating noninvasive electrocardiographic imaging for localizing premature ventricular contractions, and studied the inverse problem of electrocardiography through Bayesian MAP estimation and prior-model selection. The work led to two IEEE publications.</p></div>
+    <div class="entry__body"><h3>Middle East Technical University</h3><p class="entry__role">Heart Research Laboratory</p></div>
     <p class="entry__date">2020–2022</p>
   </div>
 </section>

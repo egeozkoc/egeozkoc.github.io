@@ -169,11 +169,11 @@ body,
 }
 
 .entry {
-  align-items: start;
+  align-items: center;
   column-gap: 1.25rem;
   display: grid;
   grid-template-columns: 44px minmax(0, 1fr) auto;
-  margin-top: 1.35rem;
+  margin-top: 1.15rem;
   row-gap: 0.35rem;
 }
 
@@ -215,15 +215,15 @@ body,
   color: var(--muted);
   font-size: 0.84rem;
   margin: 0;
-  padding-top: 0.15rem;
   text-align: end;
   white-space: nowrap;
 }
 
 .entry__role {
   color: var(--muted);
-  font-size: 0.88rem;
-  margin: 0 0 0.4rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 0;
 }
 
 .entry h3 {
@@ -319,6 +319,7 @@ body,
   }
 
   .entry {
+    align-items: start;
     column-gap: 0.9rem;
     grid-template-columns: 38px minmax(0, 1fr);
   }
@@ -331,7 +332,6 @@ body,
 
   .entry__date {
     grid-column: 2;
-    padding-top: 0;
     text-align: start;
   }
 }
