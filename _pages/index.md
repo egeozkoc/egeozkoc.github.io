@@ -17,26 +17,39 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
 
 <section class="content-section education-section">
   <h2>Education</h2>
-  <ul>
-    <li><strong>University of Pittsburgh</strong>, PhD in Electrical and Computer Engineering, 2025–present</li>
-    <li><strong>FAU Erlangen-Nürnberg</strong>, MSc in Medical Engineering, 2022–2024</li>
-    <li><strong>Middle East Technical University</strong>, BSc in Electrical and Electronics Engineering, 2016–2022</li>
-  </ul>
+  <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/pitt.svg" alt="University of Pittsburgh" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>University of Pittsburgh</h3><p>PhD in Electrical and Computer Engineering</p></div>
+    <p class="entry__date">2025–present</p>
+  </div>
+  <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/fau.svg" alt="Friedrich-Alexander-Universität Erlangen-Nürnberg" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>FAU Erlangen-Nürnberg</h3><p>MSc in Medical Engineering</p></div>
+    <p class="entry__date">2022–2024</p>
+  </div>
+  <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/metu.svg" alt="Middle East Technical University" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>Middle East Technical University</h3><p>BSc in Electrical and Electronics Engineering</p></div>
+    <p class="entry__date">2016–2022</p>
+  </div>
 </section>
 
 <section id="research" class="content-section">
   <h2>Research</h2>
   <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/pitt.svg" alt="University of Pittsburgh" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>University of Pittsburgh</h3><p>I am developing evidence-grounded methods for explaining AI-ECG model outputs with LLMs. The explanations are constrained by model evidence, including saliency maps and SHAP attributions, rather than used for independent clinical diagnosis.</p></div>
     <p class="entry__date">2025–present</p>
-    <div><h3>University of Pittsburgh</h3><p>I am developing evidence-grounded methods for explaining AI-ECG model outputs with LLMs. The explanations are constrained by model evidence, including saliency maps and SHAP attributions, rather than used for independent clinical diagnosis.</p></div>
   </div>
   <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/fraunhofer.svg" alt="Fraunhofer IIS" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>Fraunhofer IIS</h3><p>I developed a lightweight 1D CNN for Parkinson's tremor detection from wrist-worn IMU data. Under subject-independent validation, the model achieved an AUC above 0.90; quantization and structured pruning reduced its size by about 75%.</p></div>
     <p class="entry__date">2024</p>
-    <div><h3>Fraunhofer IIS</h3><p>I developed a lightweight 1D CNN for Parkinson's tremor detection from wrist-worn IMU data. Under subject-independent validation, the model achieved an AUC above 0.90; quantization and structured pruning reduced its size by about 75%.</p></div>
   </div>
   <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/metu.svg" alt="Middle East Technical University" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>Middle East Technical University</h3><p>I worked on noninvasive electrocardiographic imaging, Bayesian MAP estimation, and prior-model selection for ECG reconstruction.</p></div>
     <p class="entry__date">2020–2022</p>
-    <div><h3>Middle East Technical University</h3><p>I worked on noninvasive electrocardiographic imaging, Bayesian MAP estimation, and prior-model selection for ECG reconstruction.</p></div>
   </div>
 </section>
 

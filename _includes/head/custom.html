@@ -2,4 +2,59 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<!-- Theme (light/dark). Runs before paint so the stored choice never flashes. -->
+<script>
+  (function () {
+    var STORAGE_KEY = "theme";
+    var root = document.documentElement;
+    var media = window.matchMedia("(prefers-color-scheme: dark)");
+    var stored = null;
+
+    try {
+      stored = localStorage.getItem(STORAGE_KEY);
+    } catch (e) {}
+
+    var theme = stored === "light" || stored === "dark" ? stored : (media.matches ? "dark" : "light");
+    root.setAttribute("data-theme", theme);
+
+    function sync(button) {
+      var next = theme === "dark" ? "light" : "dark";
+      var label = "Switch to " + next + " mode";
+      button.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+      button.setAttribute("aria-label", label);
+      button.setAttribute("title", label);
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var button = document.getElementById("theme-toggle");
+      if (!button) return;
+      sync(button);
+
+      button.addEventListener("click", function () {
+        theme = theme === "dark" ? "light" : "dark";
+        stored = theme;
+        root.setAttribute("data-theme", theme);
+        sync(button);
+        try {
+          localStorage.setItem(STORAGE_KEY, theme);
+        } catch (e) {}
+      });
+
+      // Follow the system setting until the reader picks a theme themselves.
+      var onSystemChange = function (event) {
+        if (stored) return;
+        theme = event.matches ? "dark" : "light";
+        root.setAttribute("data-theme", theme);
+        sync(button);
+      };
+
+      if (media.addEventListener) {
+        media.addEventListener("change", onSystemChange);
+      } else if (media.addListener) {
+        media.addListener(onSystemChange);
+      }
+    });
+  })();
+</script>
+
 <!-- end custom head snippets -->

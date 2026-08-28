@@ -1,25 +1,72 @@
 /* A quiet, academic personal-site presentation. */
+
+/* Light palette (default). */
 :root {
+  color-scheme: light;
+  --bg: #ffffff;
   --ink: #1e2933;
   --muted: #64717d;
   --line: #d9dee3;
   --link: #1f5f87;
 }
 
+/* Dark palette. Applied when the reader picks dark, or when the system
+   prefers dark and the reader has not picked light (covers no-JS too). */
+@mixin dark-palette {
+  color-scheme: dark;
+  --bg: #14181c;
+  --ink: #e2e7eb;
+  --muted: #97a3ad;
+  --line: #2b3238;
+  --link: #86b7d8;
+}
+
+:root[data-theme="dark"] {
+  @include dark-palette;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark-palette;
+  }
+}
+
+html {
+  background: var(--bg);
+}
+
 body {
-  background: #fff;
+  background: var(--bg);
   color: var(--ink);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+body,
+.masthead,
+.page__footer,
+.greedy-nav .hidden-links {
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    color 0.2s ease;
+}
+
 .masthead {
-  background: #fff;
+  background: var(--bg);
   border-bottom: 1px solid var(--line);
   box-shadow: none;
 }
 
 .masthead__inner-wrap {
+  align-items: center;
+  gap: 0.5rem;
   max-width: 920px;
+}
+
+/* Let the nav shrink so the theme toggle keeps its own space; the priority-plus
+   nav measures the remaining width and collapses links accordingly. */
+.masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: auto;
 }
 
 .greedy-nav {
@@ -122,16 +169,54 @@ body {
 }
 
 .entry {
+  align-items: start;
+  column-gap: 1.25rem;
   display: grid;
-  gap: 1.5rem;
-  grid-template-columns: 115px minmax(0, 1fr);
+  grid-template-columns: 44px minmax(0, 1fr) auto;
   margin-top: 1.35rem;
+  row-gap: 0.35rem;
+}
+
+.entry__logo {
+  align-items: center;
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.entry__logo img {
+  display: block;
+  height: 36px;
+  object-fit: contain;
+  width: 36px;
+}
+
+/* Dark institutional marks need a light chip to stay legible on a dark page. */
+@mixin logo-chip {
+  background: #fff;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+:root[data-theme="dark"] .entry__logo {
+  @include logo-chip;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .entry__logo {
+    @include logo-chip;
+  }
 }
 
 .entry__date {
   color: var(--muted);
   font-size: 0.84rem;
   margin: 0;
+  padding-top: 0.15rem;
+  text-align: end;
+  white-space: nowrap;
 }
 
 .entry h3 {
@@ -143,8 +228,7 @@ body {
 
 .entry p:not(.entry__date),
 .project-list li,
-.publication-list li,
-.education-section li {
+.publication-list li {
   font-size: 0.96rem;
   line-height: 1.65;
 }
@@ -154,22 +238,19 @@ body {
 }
 
 .project-list,
-.publication-list,
-.education-section ul {
+.publication-list {
   margin: 0;
   padding-left: 1.15rem;
 }
 
 .project-list li,
-.publication-list li,
-.education-section li {
+.publication-list li {
   margin-bottom: 0.8rem;
   padding-left: 0.2rem;
 }
 
 .project-list li:last-child,
-.publication-list li:last-child,
-.education-section li:last-child {
+.publication-list li:last-child {
   margin-bottom: 0;
 }
 
@@ -186,7 +267,7 @@ body {
 }
 
 .page__footer {
-  background: #fff;
+  background: var(--bg);
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.78rem;
@@ -231,10 +312,128 @@ body {
   }
 
   .entry {
-    display: block;
+    column-gap: 0.9rem;
+    grid-template-columns: 38px minmax(0, 1fr);
+  }
+
+  .entry__logo {
+    height: 38px;
+    width: 38px;
+  }
+
+  .entry__logo img {
+    height: 32px;
+    width: 32px;
   }
 
   .entry__date {
-    margin-bottom: 0.3rem;
+    grid-column: 2;
+    padding-top: 0;
+    text-align: start;
+  }
+}
+
+/* Theme toggle
+   ========================================================================== */
+
+.theme-toggle {
+  align-items: center;
+  align-self: center;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--muted);
+  cursor: pointer;
+  display: flex;
+  flex: none;
+  height: 2.15rem;
+  justify-content: center;
+  padding: 0;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    color 0.2s ease;
+  width: 2.15rem;
+}
+
+.theme-toggle:hover {
+  border-color: var(--muted);
+  color: var(--ink);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+.theme-toggle svg {
+  display: block;
+  height: 1.05rem;
+  width: 1.05rem;
+}
+
+/* Show the icon for the theme the button switches to. */
+.theme-toggle__icon--sun {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle__icon--moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle__icon--sun {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle__icon--moon {
+    display: none;
+  }
+
+  :root:not([data-theme="light"]) .theme-toggle__icon--sun {
+    display: block;
+  }
+}
+
+/* Collapsed nav menu and hamburger, themed alongside everything else. */
+.greedy-nav .hidden-links {
+  background: var(--bg);
+  border-color: var(--line);
+  box-shadow: none;
+}
+
+.greedy-nav .hidden-links::before {
+  border-color: var(--line) transparent;
+}
+
+.greedy-nav .hidden-links::after {
+  border-color: var(--bg) transparent;
+}
+
+.greedy-nav .hidden-links li {
+  border-bottom-color: var(--line);
+}
+
+.greedy-nav .hidden-links a {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.greedy-nav .hidden-links a:hover {
+  background: transparent;
+  color: var(--ink);
+}
+
+.navicon,
+.navicon::before,
+.navicon::after {
+  background: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body,
+  .masthead,
+  .page__footer,
+  .greedy-nav .hidden-links,
+  .theme-toggle {
+    transition: none;
   }
 }
