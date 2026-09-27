@@ -21,7 +21,7 @@ title                    : "Ege Ozkoc"
 title_separator          : "-"
 subtitle                 :
 name                     : "Ege Ozkoc"
-description              : "Ege Ozkoc is a PhD student in Electrical and Computer Engineering at the University of Pittsburgh, working on machine learning, biomedical signals, and efficient AI systems."
+description              : "Ege Ozkoc is a PhD student in Electrical and Computer Engineering at the University of Pittsburgh, working on machine learning for real-world time-series data, interpretable AI systems, and efficient deep learning."
 url                      : https://egeozkoc.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
