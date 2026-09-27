@@ -63,33 +63,33 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   <h2>Experience</h2>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/pitt.svg" alt="University of Pittsburgh" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>University of Pittsburgh</h3><p class="entry__role">Signal Processing and Statistical Learning Lab</p></div>
-    <p class="entry__date">2025–present</p>
+    <div class="entry__body"><h3>University of Pittsburgh</h3><p class="entry__position">PhD Researcher</p><p class="entry__group">Signal Processing and Statistical Learning Lab (SPSL)</p></div>
+    <p class="entry__date">Aug 2025–present</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/fraunhofer.svg" alt="Fraunhofer IIS" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>Fraunhofer IIS</h3><p class="entry__role">Medical Sensors and Analytics Group</p></div>
-    <p class="entry__date">2024</p>
+    <div class="entry__body"><h3>Fraunhofer Institute for Integrated Circuits IIS</h3><p class="entry__position">Master's Thesis Researcher</p><p class="entry__group">Medical Sensors and Analytics Group</p></div>
+    <p class="entry__date">Mar 2024–Nov 2024</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/fau.svg" alt="Friedrich-Alexander-Universität Erlangen-Nürnberg" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>FAU Erlangen-Nürnberg</h3><p class="entry__role">Machine Learning and Data Analytics Lab</p></div>
-    <p class="entry__date">2023–2024</p>
+    <div class="entry__body"><h3>FAU Erlangen-Nürnberg</h3><p class="entry__position">Research Intern &amp; Student Assistant</p><p class="entry__group">Machine Learning and Data Analytics Lab</p></div>
+    <p class="entry__date">Jun 2023–Apr 2024</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/uk-erlangen.svg" alt="Universitätsklinikum Erlangen" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>Universitätsklinikum Erlangen</h3><p class="entry__role">Department of Radiology</p></div>
-    <p class="entry__date">2023</p>
-  </div>
-  <div class="entry">
-    <span class="entry__logo"><img src="/assets/images/logos/aselsan.svg" alt="ASELSAN" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>ASELSAN</h3><p class="entry__role">Defense Systems Technologies Division</p></div>
-    <p class="entry__date">2021</p>
+    <div class="entry__body"><h3>Universitätsklinikum Erlangen</h3><p class="entry__position">Student Research Assistant</p><p class="entry__group">Department of Radiology</p></div>
+    <p class="entry__date">Feb 2023–Oct 2023</p>
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/metu.svg" alt="Middle East Technical University" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>Middle East Technical University</h3><p class="entry__role">Heart Research Laboratory</p></div>
-    <p class="entry__date">2020–2022</p>
+    <div class="entry__body"><h3>Middle East Technical University</h3><p class="entry__position">Undergraduate Researcher</p><p class="entry__group">Heart Research Laboratory</p></div>
+    <p class="entry__date">Jul 2020–Jul 2022</p>
+  </div>
+  <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/aselsan.svg" alt="ASELSAN" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>ASELSAN</h3><p class="entry__position">Part-time Candidate Engineer &amp; Engineering Intern</p><p class="entry__group">Radar &amp; Electronic Warfare / Defense Systems Technologies</p></div>
+    <p class="entry__date">Jul 2021–Jan 2022</p>
   </div>
 </section>
 
