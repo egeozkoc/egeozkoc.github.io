@@ -114,8 +114,8 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
 <section id="publications" class="content-section">
   <h2>Publications</h2>
   <ol class="publication-list">
-    <li><strong>E. Ozkoc</strong>, T. S. Zech, N. Pfeiffer, S. Gobl, and J. Frickel. “Compressed and Lightweight CNN for Real-Time Parkinson's Tremor Detection from Wearable IMU Data.” <em>IEEE MLSP</em>, 2025. <a href="https://doi.org/10.1109/MLSP62443.2025.11204316" target="_blank" rel="noopener">DOI</a></li>
-    <li><strong>E. Ozkoc</strong> and Y. Serinagaoglu Dogrusoz. “Bayesian MAP Solution of the Inverse ECG Problem with Sinus Rhythm Data: Evaluation of Simulated Training Sets.” <em>IEEE SIU</em>, 2022. <a href="https://doi.org/10.1109/SIU55565.2022.9864708" target="_blank" rel="noopener">DOI</a></li>
-    <li><strong>E. Ozkoc</strong>, E. Sunger, K. Ugurlu, and Y. Serinagaoglu Dogrusoz. “Prior Model Selection in Bayesian MAP Estimation-Based ECG Reconstruction.” <em>Measurement</em>, 2021. <a href="https://doi.org/10.23919/Measurement52780.2021.9446831" target="_blank" rel="noopener">DOI</a></li>
+    <li><strong>Ege Ozkoc</strong>, Tobias Sebastian Zech, Norman Pfeiffer, Stephan Göbl, and Jürgen Frickel. “Compressed and Lightweight CNN for Real-Time Parkinson’s Tremor Detection from Wearable IMU Data.” <em>2025 IEEE International Workshop on Machine Learning for Signal Processing (MLSP)</em>, Istanbul, Türkiye, 2025. <a href="https://doi.org/10.1109/MLSP62443.2025.11204316" target="_blank" rel="noopener">Paper</a></li>
+    <li><strong>Ege Ozkoc</strong> and Yesim Serinagaoglu Dogrusoz. “Bayesian MAP Solution of the Inverse ECG Problem with Sinus Rhythm Data: Evaluation of Simulated Training Sets.” <em>30th IEEE Signal Processing and Communications Applications Conference (SIU)</em>, 2022. <a href="https://doi.org/10.1109/SIU55565.2022.9864708" target="_blank" rel="noopener">Paper</a></li>
+    <li><strong>Ege Ozkoc</strong>, Elifnur Sunger, Kutay Ugurlu, and Yesim Serinagaoglu Dogrusoz. “Prior Model Selection in Bayesian MAP Estimation-Based ECG Reconstruction.” <em>13th International Conference on Measurement</em>, 2021. <a href="https://doi.org/10.23919/Measurement52780.2021.9446831" target="_blank" rel="noopener">Paper</a></li>
   </ol>
 </section>
