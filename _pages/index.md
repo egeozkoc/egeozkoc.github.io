@@ -40,25 +40,6 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   </div>
 </section>
 
-<section class="content-section education-section">
-  <h2>Education</h2>
-  <div class="entry">
-    <span class="entry__logo"><img src="/assets/images/logos/pitt.svg" alt="University of Pittsburgh" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>University of Pittsburgh</h3><p class="entry__role">PhD in Electrical and Computer Engineering</p></div>
-    <p class="entry__date">2025–present</p>
-  </div>
-  <div class="entry">
-    <span class="entry__logo"><img src="/assets/images/logos/fau.svg" alt="Friedrich-Alexander-Universität Erlangen-Nürnberg" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>FAU Erlangen-Nürnberg</h3><p class="entry__role">MSc in Medical Engineering</p></div>
-    <p class="entry__date">2022–2024</p>
-  </div>
-  <div class="entry">
-    <span class="entry__logo"><img src="/assets/images/logos/metu.svg" alt="Middle East Technical University" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>Middle East Technical University</h3><p class="entry__role">BSc in Electrical and Electronics Engineering</p></div>
-    <p class="entry__date">2016–2022</p>
-  </div>
-</section>
-
 <section id="experience" class="content-section">
   <h2>Experience</h2>
   <div class="entry">
@@ -103,14 +84,6 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   </div>
 </section>
 
-<section id="projects" class="content-section">
-  <h2>Additional Projects</h2>
-  <ul class="project-list">
-    <li><a href="https://github.com/egeozkoc/lora-from-scratch" target="_blank" rel="noopener">lora-from-scratch</a> — a minimal PyTorch implementation of LoRA, including low-rank adapters, injection into existing linear layers, weight merging, and a small LLM fine-tuning experiment.</li>
-    <li><a href="https://github.com/egeozkoc/clustering-toolbox" target="_blank" rel="noopener">clustering-toolbox</a> — a Streamlit application for clustering and exploring tabular data with KMeans, Gaussian mixture models, DBSCAN, PCA, and t-SNE.</li>
-  </ul>
-</section>
-
 <section id="publications" class="content-section">
   <h2>Publications</h2>
   <ol class="publication-list">
@@ -118,4 +91,31 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
     <li><strong>Ege Ozkoc</strong> and Yesim Serinagaoglu Dogrusoz. “Bayesian MAP Solution of the Inverse ECG Problem with Sinus Rhythm Data: Evaluation of Simulated Training Sets.” <em>30th IEEE Signal Processing and Communications Applications Conference (SIU)</em>, 2022. <a href="https://doi.org/10.1109/SIU55565.2022.9864708" target="_blank" rel="noopener">Paper</a></li>
     <li><strong>Ege Ozkoc</strong>, Elifnur Sunger, Kutay Ugurlu, and Yesim Serinagaoglu Dogrusoz. “Prior Model Selection in Bayesian MAP Estimation-Based ECG Reconstruction.” <em>13th International Conference on Measurement</em>, 2021. <a href="https://doi.org/10.23919/Measurement52780.2021.9446831" target="_blank" rel="noopener">Paper</a></li>
   </ol>
+</section>
+
+<section id="education" class="content-section education-section">
+  <h2>Education</h2>
+  <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/pitt.svg" alt="University of Pittsburgh" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>University of Pittsburgh</h3><p class="entry__role">PhD in Electrical and Computer Engineering</p></div>
+    <p class="entry__date">2025–present</p>
+  </div>
+  <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/fau.svg" alt="Friedrich-Alexander-Universität Erlangen-Nürnberg" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>FAU Erlangen-Nürnberg</h3><p class="entry__role">MSc in Medical Engineering</p></div>
+    <p class="entry__date">2022–2024</p>
+  </div>
+  <div class="entry">
+    <span class="entry__logo"><img src="/assets/images/logos/metu.svg" alt="Middle East Technical University" width="36" height="36" loading="lazy"></span>
+    <div class="entry__body"><h3>Middle East Technical University</h3><p class="entry__role">BSc in Electrical and Electronics Engineering</p></div>
+    <p class="entry__date">2016–2022</p>
+  </div>
+</section>
+
+<section id="projects" class="content-section">
+  <h2>Additional Projects</h2>
+  <ul class="project-list">
+    <li><a href="https://github.com/egeozkoc/lora-from-scratch" target="_blank" rel="noopener">lora-from-scratch</a> — a minimal PyTorch implementation of LoRA, including low-rank adapters, injection into existing linear layers, weight merging, and a small LLM fine-tuning experiment.</li>
+    <li><a href="https://github.com/egeozkoc/clustering-toolbox" target="_blank" rel="noopener">clustering-toolbox</a> — a Streamlit application for clustering and exploring tabular data with KMeans, Gaussian mixture models, DBSCAN, PCA, and t-SNE.</li>
+  </ul>
 </section>
