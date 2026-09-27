@@ -15,6 +15,31 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   </div>
 </header>
 
+<section id="selected-work" class="content-section">
+  <h2>Selected Work</h2>
+  <div class="work-list">
+    <div class="work-item">
+      <h3>Interpretable AI-ECG with LLMs</h3>
+      <p>At the University of Pittsburgh's Signal Processing and Statistical Learning Lab, I am developing evidence-grounded LLM pipelines that turn AI-ECG predictions into clinically interpretable explanations by combining model outputs with ECG waveform evidence, saliency maps, and SHAP attributions. This work has led to a U.S. provisional patent application.</p>
+    </div>
+    <div class="work-item">
+      <h3>Real-Time Parkinson's Tremor Detection</h3>
+      <p>At Fraunhofer IIS, I developed a real-time tremor detection pipeline from wrist-worn IMU data for wearable assistive systems. I benchmarked signal-processing and machine-learning approaches and developed a lightweight 1D CNN that achieved approximately 0.91 AUC on unseen subjects. 8-bit quantization reduced the model size by approximately 75% with negligible performance loss.</p>
+      <p class="work-item__links"><a href="https://doi.org/10.1109/MLSP62443.2025.11204316" target="_blank" rel="noopener">Paper</a> · <a href="/assets/docs/Master_s_Thesis_Ege_Ozkoc.pdf" target="_blank" rel="noopener">Thesis</a></p>
+    </div>
+    <div class="work-item">
+      <h3>Bayesian Inverse ECG Reconstruction</h3>
+      <p>At METU's Heart Research Laboratory, I worked on noninvasive electrocardiographic imaging using Bayesian MAP estimation. I developed and evaluated prior models from measured and simulated cardiac data and worked on registration and interpolation across heart geometries. The work resulted in two peer-reviewed conference publications.</p>
+      <p class="work-item__links"><a href="https://doi.org/10.1109/SIU55565.2022.9864708" target="_blank" rel="noopener">2022 paper</a> · <a href="https://doi.org/10.23919/Measurement52780.2021.9446831" target="_blank" rel="noopener">2021 paper</a></p>
+    </div>
+    <div class="work-item">
+      <h3>ML Systems &amp; Open Source</h3>
+      <p>I also build ML systems and implementations to understand the stack beyond high-level model APIs. Recent work includes a NumPy/SciPy deep-learning framework with manually implemented forward and backward passes, a NumPy-like N-dimensional array library in modern C++, a fully offline Whisper/MLX macOS dictation app, and merged contributions to bitsandbytes.</p>
+      <p class="work-item__links"><a href="https://github.com/egeozkoc/deep-learning-from-scratch" target="_blank" rel="noopener">deep-learning-from-scratch</a> · <a href="https://github.com/egeozkoc/mini-numpy" target="_blank" rel="noopener">mini-numpy</a> · <a href="https://github.com/egeozkoc/murmur" target="_blank" rel="noopener">murmur</a> · <a href="https://github.com/bitsandbytes-foundation/bitsandbytes/pulls?q=is%3Apr+author%3Aegeozkoc" target="_blank" rel="noopener">bitsandbytes contributions</a></p>
+    </div>
+  </div>
+</section>
+
 <section class="content-section education-section">
   <h2>Education</h2>
   <div class="entry">

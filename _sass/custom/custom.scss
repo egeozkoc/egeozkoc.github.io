@@ -244,6 +244,33 @@ body,
   margin: 0;
 }
 
+.work-item {
+  margin-top: 1.35rem;
+}
+
+.work-item:first-child {
+  margin-top: 0;
+}
+
+.work-item h3 {
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 650;
+  margin: 0 0 0.35rem;
+}
+
+.work-item p {
+  font-size: 0.96rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.work-item__links {
+  color: var(--muted);
+  font-size: 0.88rem !important;
+  margin-top: 0.35rem !important;
+}
+
 .project-list,
 .publication-list {
   margin: 0;
