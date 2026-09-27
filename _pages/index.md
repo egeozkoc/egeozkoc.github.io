@@ -88,8 +88,18 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   </div>
   <div class="entry">
     <span class="entry__logo"><img src="/assets/images/logos/aselsan.svg" alt="ASELSAN" width="36" height="36" loading="lazy"></span>
-    <div class="entry__body"><h3>ASELSAN</h3><p class="entry__position">Part-time Candidate Engineer &amp; Engineering Intern</p><p class="entry__group">Radar &amp; Electronic Warfare / Defense Systems Technologies</p></div>
-    <p class="entry__date">Jul 2021–Jan 2022</p>
+    <div class="entry__body">
+      <h3>ASELSAN</h3>
+      <div class="entry__stint">
+        <p class="entry__position">Part-time Candidate Engineer</p>
+        <p class="entry__group">Radar &amp; Electronic Warfare <span class="entry__stint-date">· Nov 2021–Jan 2022</span></p>
+      </div>
+      <div class="entry__stint">
+        <p class="entry__position">Engineering Intern</p>
+        <p class="entry__group">Defense Systems Technologies <span class="entry__stint-date">· Jul 2021–Aug 2021</span></p>
+      </div>
+    </div>
+    <p class="entry__date">2021–2022</p>
   </div>
 </section>
 

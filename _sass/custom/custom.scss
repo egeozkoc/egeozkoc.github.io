@@ -240,6 +240,10 @@ body,
   margin: 0;
 }
 
+.entry__stint + .entry__stint {
+  margin-top: 0.5rem;
+}
+
 .entry h3 {
   color: var(--ink);
   font-size: 1rem;
@@ -247,14 +251,14 @@ body,
   margin: 0 0 0.35rem;
 }
 
-.entry p:not(.entry__date):not(.entry__role),
+.entry p:not(.entry__date):not(.entry__role):not(.entry__position):not(.entry__group),
 .project-list li,
 .publication-list li {
   font-size: 0.96rem;
   line-height: 1.65;
 }
 
-.entry p:not(.entry__date):not(.entry__role) {
+.entry p:not(.entry__date):not(.entry__role):not(.entry__position):not(.entry__group) {
   margin: 0;
 }
 
