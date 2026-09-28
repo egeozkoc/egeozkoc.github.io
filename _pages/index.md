@@ -19,7 +19,7 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
   <h2>Selected Work</h2>
   <div class="work-list">
     <div class="work-item">
-      <figure class="work-item__media work-item__media--wide"><img src="/assets/images/projects/interpretable-ai-ecg-llm-concept-diagram.png" alt="Conceptual illustration, not experimental data: ECG signal evidence feeds model output (prediction and attributions), which feeds an LLM explanation." loading="lazy"></figure>
+      <figure class="work-item__media work-item__media--wide"><a href="/assets/images/projects/interpretable-ai-ecg-llm-concept-diagram.png" target="_blank" rel="noopener"><img src="/assets/images/projects/interpretable-ai-ecg-llm-concept-diagram.png" alt="Conceptual illustration, not experimental data: ECG signal evidence feeds model output (prediction and attributions), which feeds an LLM explanation." loading="lazy"></a></figure>
       <div class="work-item__body">
         <h3>Interpretable AI-ECG with LLMs</h3>
         <p>I develop evidence-grounded LLM pipelines for interpreting AI-ECG predictions, combining waveform evidence, model outputs, and saliency/SHAP attributions. This work has led to a U.S. provisional patent application.</p>
@@ -27,7 +27,7 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
       </div>
     </div>
     <div class="work-item">
-      <figure class="work-item__media "><img src="/assets/images/projects/parkinsons-tremor-fft-thesis-fig2-6.png" alt="Magnitude of the FFT of a wrist accelerometer recording of a tremor, with a dominant peak near 5 Hz." loading="lazy"><figcaption>Figure from the author's master's thesis.</figcaption></figure>
+      <figure class="work-item__media "><a href="/assets/images/projects/parkinsons-tremor-fft-thesis-fig2-6.png" target="_blank" rel="noopener"><img src="/assets/images/projects/parkinsons-tremor-fft-thesis-fig2-6.png" alt="Magnitude of the FFT of a wrist accelerometer recording of a tremor, with a dominant peak near 5 Hz." loading="lazy"></a><figcaption>Figure from the author's master's thesis.</figcaption></figure>
       <div class="work-item__body">
         <h3>Real-Time Parkinson's Tremor Detection</h3>
         <p>At Fraunhofer IIS, I developed a lightweight 1D CNN for Parkinson's tremor detection using wrist-worn IMU data. It achieved approximately 0.91 AUC on unseen subjects, while 8-bit quantization reduced model size by approximately 75% with negligible performance loss.</p>
@@ -35,7 +35,7 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
       </div>
     </div>
     <div class="work-item">
-      <figure class="work-item__media "><img src="/assets/images/projects/inverse-ecg-forward-inverse-overview.png" alt="Illustration of the forward and inverse ECG problems: heart-surface potential map on the left, body-surface potential map on the right." loading="lazy"></figure>
+      <figure class="work-item__media "><a href="/assets/images/projects/inverse-ecg-forward-inverse-overview.png" target="_blank" rel="noopener"><img src="/assets/images/projects/inverse-ecg-forward-inverse-overview.png" alt="Illustration of the forward and inverse ECG problems: heart-surface potential map on the left, body-surface potential map on the right." loading="lazy"></a></figure>
       <div class="work-item__body">
         <h3>Bayesian Inverse ECG Reconstruction</h3>
         <p>I used Bayesian MAP estimation to reconstruct cardiac electrical activity from body-surface measurements, evaluating prior models derived from measured and simulated data. This work resulted in two peer-reviewed conference publications.</p>
@@ -43,7 +43,7 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
       </div>
     </div>
     <div class="work-item">
-      <figure class="work-item__media work-item__media--code"><img src="/assets/images/projects/mini-numpy-array2d-code-excerpt.png" alt="C++ source excerpt from mini-numpy: the element-wise in-place multiplication operator of the Array2D class." loading="lazy"><figcaption>Excerpt from mini-numpy (Array2D.hpp).</figcaption></figure>
+      <figure class="work-item__media work-item__media--code"><a href="/assets/images/projects/mini-numpy-array2d-code-excerpt.png" target="_blank" rel="noopener"><img src="/assets/images/projects/mini-numpy-array2d-code-excerpt.png" alt="C++ source excerpt from mini-numpy: the element-wise in-place multiplication operator of the Array2D class." loading="lazy"></a><figcaption>Excerpt from mini-numpy (Array2D.hpp).</figcaption></figure>
       <div class="work-item__body">
         <h3>ML Systems &amp; Open Source</h3>
         <p>I build ML systems and implementations beyond high-level model APIs, including a deep-learning framework from scratch, a C++ array library, offline Whisper dictation using MLX, and merged bitsandbytes contributions.</p>

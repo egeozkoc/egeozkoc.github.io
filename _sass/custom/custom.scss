@@ -265,8 +265,8 @@ body,
 .work-item {
   align-items: flex-start;
   display: flex;
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1.1rem;
+  margin-top: 1.5rem;
 }
 
 .work-item:first-child {
@@ -274,9 +274,13 @@ body,
 }
 
 .work-item__media {
-  flex: 0 0 200px;
+  flex: 0 0 145px;
   margin: 0;
-  width: 200px;
+  width: 145px;
+}
+
+.work-item__media a {
+  display: block;
 }
 
 .work-item__media img {
@@ -285,7 +289,7 @@ body,
   border-radius: 3px;
   box-sizing: border-box;
   display: block;
-  height: 130px;
+  height: 95px;
   object-fit: contain;
   padding: 4px;
   width: 100%;
@@ -315,13 +319,7 @@ body,
 
   .work-item__media {
     flex-basis: auto;
-    max-width: 320px;
-    width: 100%;
-  }
-
-  .work-item__media img {
-    height: auto;
-    max-height: 220px;
+    width: 145px;
   }
 }
 
