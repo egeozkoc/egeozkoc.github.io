@@ -274,13 +274,17 @@ body,
 }
 
 .work-item__media {
-  flex: 0 0 145px;
+  /* The theme styles bare `figure` as a flex row; reset it so the link and
+     image size themselves against the fixed thumbnail width. */
+  display: block;
+  flex: 0 0 130px;
   margin: 0;
-  width: 145px;
+  width: 130px;
 }
 
 .work-item__media a {
   display: block;
+  width: 100%;
 }
 
 .work-item__media img {
@@ -289,10 +293,12 @@ body,
   border-radius: 3px;
   box-sizing: border-box;
   display: block;
-  height: 95px;
+  height: 90px;
+  margin: 0;
+  max-width: none;
   object-fit: contain;
   padding: 4px;
-  width: 100%;
+  width: 130px;
 }
 
 .work-item__media--code img {
@@ -318,8 +324,7 @@ body,
   }
 
   .work-item__media {
-    flex-basis: auto;
-    width: 145px;
+    flex: none;
   }
 }
 
