@@ -155,16 +155,16 @@ body,
   font-family: inherit;
 }
 
+/* The site title is redundant next to the profile header. It stays in the
+   markup because the theme's priority-plus nav script measures it to decide
+   how many links fit; hiding it makes it count as zero width. */
 .greedy-nav .site-title {
-  color: var(--ink);
-  font-size: 1rem;
-  font-weight: 600;
+  display: none;
 }
 
-.greedy-nav .site-subtitle {
-  color: var(--muted);
-  font-size: 0.73rem;
-  font-weight: 400;
+/* With the title gone, start the links at the left edge of the bar. */
+.greedy-nav .visible-links {
+  justify-content: flex-start;
 }
 
 .greedy-nav .visible-links a {
