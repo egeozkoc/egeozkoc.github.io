@@ -1,21 +1,38 @@
 /* A quiet, academic personal-site presentation. */
 
-/* Inter (SIL Open Font License 1.1, see assets/fonts/inter/OFL-LICENSE.txt),
-   self-hosted variable fonts from the official v4.1 release. */
+/* Lato 2.015 (SIL Open Font License 1.1, see assets/fonts/lato/OFL-LICENSE.txt),
+   self-hosted. Only the weights the site uses are shipped: Regular (400) and
+   Semibold (600), each with a true italic, so no weight is synthesized. */
 @font-face {
-  font-family: "Inter";
+  font-family: "Lato";
   font-style: normal;
-  font-weight: 100 900;
+  font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/inter/InterVariable.woff2") format("woff2");
+  src: url("/assets/fonts/lato/Lato-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Lato";
   font-style: italic;
-  font-weight: 100 900;
+  font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/inter/InterVariable-Italic.woff2") format("woff2");
+  src: url("/assets/fonts/lato/Lato-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/fonts/lato/Lato-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/fonts/lato/Lato-SemiboldItalic.woff2") format("woff2");
 }
 
 /* Light palette (default). */
@@ -26,7 +43,7 @@
   --muted: #64717d;
   --line: #d9dee3;
   --link: #1f5f87;
-  --font: "Inter", sans-serif;
+  --font: "Lato", sans-serif;
 }
 
 /* Dark palette. Applied when the reader picks dark, or when the system
@@ -60,7 +77,7 @@ body {
   font-family: var(--font);
 }
 
-/* Inter is the only typeface; the theme sets its own stacks on these. */
+/* Lato is the only typeface; the theme sets its own stacks on these. */
 .mfp-close,
 .page__hero-caption,
 figcaption,
@@ -96,6 +113,13 @@ figure.highlight,
 .sidebar .author__name,
 .author__urls-wrapper {
   font-family: var(--font);
+}
+
+/* Only 400 and 600 are shipped; keep emphasis on the semibold face. */
+strong,
+b,
+th {
+  font-weight: 600;
 }
 
 body,
@@ -134,7 +158,7 @@ body,
 .greedy-nav .site-title {
   color: var(--ink);
   font-size: 1rem;
-  font-weight: 650;
+  font-weight: 600;
 }
 
 .greedy-nav .site-subtitle {
@@ -185,7 +209,7 @@ body,
 .profile-header h1 {
   color: var(--ink);
   font-size: 2.55rem;
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: -0.03em;
   line-height: 1.1;
   margin: 0 0 0.5rem;
@@ -218,7 +242,7 @@ body,
 .content-section h2 {
   color: var(--ink);
   font-size: 1.5rem;
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: -0.015em;
   margin: 0 0 1.35rem;
 }
@@ -302,7 +326,7 @@ body,
 .entry h3 {
   color: var(--ink);
   font-size: 1rem;
-  font-weight: 650;
+  font-weight: 600;
   margin: 0 0 0.35rem;
 }
 
@@ -386,7 +410,7 @@ body,
 .work-item h3 {
   color: var(--ink);
   font-size: 1rem;
-  font-weight: 650;
+  font-weight: 600;
   margin: 0 0 0.35rem;
 }
 
@@ -415,7 +439,7 @@ body,
 }
 
 .project-list li > a:first-child {
-  font-weight: 650;
+  font-weight: 600;
 }
 
 .project-list li:last-child,
@@ -431,7 +455,7 @@ body,
 
 .subpage-intro h1 {
   font-size: 2.5rem;
-  font-weight: 650;
+  font-weight: 600;
 }
 
 .page__footer {
