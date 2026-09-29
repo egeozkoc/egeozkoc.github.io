@@ -134,12 +134,23 @@ body,
   background: var(--bg);
   border-bottom: 1px solid var(--line);
   box-shadow: none;
+  /* The theme gives #main a 1em inline padding; mirror it here so the bar and
+     the page content share the same left and right edges. */
+  padding-inline: 1em;
 }
 
 .masthead__inner-wrap {
   align-items: center;
   gap: 0.5rem;
-  max-width: 920px;
+  max-width: 860px;
+  padding: 0 1.5rem;
+}
+
+/* The theme's clearfix pseudo-elements become flex items here and add an
+   extra gap after the theme toggle. */
+.masthead__inner-wrap::before,
+.masthead__inner-wrap::after {
+  display: none;
 }
 
 /* Let the nav shrink so the theme toggle keeps its own space; the priority-plus
@@ -170,6 +181,11 @@ body,
 .greedy-nav .visible-links a {
   color: var(--muted);
   font-size: 0.86rem;
+}
+
+/* Line the first link's text up with the page content's left edge. */
+.greedy-nav .visible-links li:first-child a {
+  margin-left: 0;
 }
 
 .greedy-nav .visible-links a::before {
@@ -475,6 +491,10 @@ body,
 }
 
 @media (max-width: 600px) {
+  .masthead__inner-wrap {
+    padding: 0 1.25rem;
+  }
+
   .portfolio-page {
     padding: 2.5rem 1.25rem 3rem;
   }
