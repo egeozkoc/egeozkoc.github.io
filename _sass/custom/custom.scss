@@ -134,7 +134,7 @@ body,
 .greedy-nav .site-title {
   color: var(--ink);
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 650;
 }
 
 .greedy-nav .site-subtitle {
@@ -185,7 +185,7 @@ body,
 .profile-header h1 {
   color: var(--ink);
   font-size: 2.55rem;
-  font-weight: 400;
+  font-weight: 650;
   letter-spacing: -0.03em;
   line-height: 1.1;
   margin: 0 0 0.5rem;
@@ -218,7 +218,7 @@ body,
 .content-section h2 {
   color: var(--ink);
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 650;
   letter-spacing: -0.015em;
   margin: 0 0 1.35rem;
 }
@@ -414,6 +414,10 @@ body,
   padding-left: 0.2rem;
 }
 
+.project-list li > a:first-child {
+  font-weight: 650;
+}
+
 .project-list li:last-child,
 .publication-list li:last-child {
   margin-bottom: 0;
@@ -427,7 +431,7 @@ body,
 
 .subpage-intro h1 {
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 650;
 }
 
 .page__footer {
