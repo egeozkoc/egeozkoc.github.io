@@ -1,5 +1,23 @@
 /* A quiet, academic personal-site presentation. */
 
+/* Inter (SIL Open Font License 1.1, see assets/fonts/inter/OFL-LICENSE.txt),
+   self-hosted variable fonts from the official v4.1 release. */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/fonts/inter/InterVariable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/fonts/inter/InterVariable-Italic.woff2") format("woff2");
+}
+
 /* Light palette (default). */
 :root {
   color-scheme: light;
@@ -8,6 +26,7 @@
   --muted: #64717d;
   --line: #d9dee3;
   --link: #1f5f87;
+  --font: "Inter", sans-serif;
 }
 
 /* Dark palette. Applied when the reader picks dark, or when the system
@@ -38,7 +57,45 @@ html {
 body {
   background: var(--bg);
   color: var(--ink);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font);
+}
+
+/* Inter is the only typeface; the theme sets its own stacks on these. */
+.mfp-close,
+.page__hero-caption,
+figcaption,
+body,
+h1, h2, h3, h4, h5, h6,
+tt, code, kbd, samp, pre,
+input, button, select, textarea,
+table,
+.btn,
+.notice,
+.masthead__inner-wrap,
+.greedy-nav,
+.breadcrumbs,
+.pagination ul,
+.pagination li a,
+.pagination--pager,
+.nav__title,
+.nav__sub-title,
+.toc,
+.page__footer-copyright,
+.page__footer-follow li,
+div.highlighter-rouge,
+figure.highlight,
+.skip-link,
+.page__lead,
+.page__content dt,
+.page__content dd,
+.page__meta,
+.comment__date,
+.archive__item-title,
+.sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6,
+.sidebar p, .sidebar li,
+.sidebar .author__name,
+.author__urls-wrapper {
+  font-family: var(--font);
 }
 
 body,
@@ -127,10 +184,9 @@ body,
 
 .profile-header h1 {
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 2.55rem;
   font-weight: 400;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.03em;
   line-height: 1.1;
   margin: 0 0 0.5rem;
 }
@@ -161,7 +217,6 @@ body,
 
 .content-section h2 {
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: -0.015em;
@@ -371,7 +426,6 @@ body,
 }
 
 .subpage-intro h1 {
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 2.5rem;
   font-weight: 400;
 }
