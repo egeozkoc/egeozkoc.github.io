@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "About"
-    url: /#about
   - title: "Selected Work"
     url: /#selected-work
   - title: "Additional Projects"
