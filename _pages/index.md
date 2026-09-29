@@ -11,7 +11,7 @@ excerpt: "PhD student at the University of Pittsburgh working on machine learnin
     <h1>Ege Ozkoc</h1>
     <p class="profile-header__affiliation">PhD Student, Electrical and Computer Engineering<br>University of Pittsburgh</p>
     <p>My research focuses on machine learning and signal processing for real-world time-series data, with current work on interpretable AI-ECG systems and LLM-based explanations. My broader work spans efficient deep learning and practical ML systems, from model compression and edge inference to low-level implementation.</p>
-    <p class="profile-header__links"><a href="mailto:ege.ozkoc@pitt.edu">Email</a> · <a href="/assets/docs/Ege_Ozkoc_CV.pdf" target="_blank" rel="noopener">CV</a> · <a href="https://scholar.google.com/citations?user=OqtWjZUAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://github.com/egeozkoc" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/egeozkoc/" target="_blank" rel="noopener">LinkedIn</a></p>
+    <p class="profile-header__links"><a href="mailto:ege.ozkoc@pitt.edu">Email</a> · <a href="/assets/docs/Ege_Ozkoc_Resume.pdf" target="_blank" rel="noopener">Resume</a> · <a href="https://scholar.google.com/citations?user=OqtWjZUAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://github.com/egeozkoc" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/egeozkoc/" target="_blank" rel="noopener">LinkedIn</a></p>
   </div>
 </header>
 

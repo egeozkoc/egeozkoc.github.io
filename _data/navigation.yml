@@ -12,6 +12,6 @@ main:
     url: /#experience
   - title: "Education"
     url: /#education
-  - title: "CV"
-    url: /assets/docs/Ege_Ozkoc_CV.pdf
+  - title: "Resume"
+    url: /assets/docs/Ege_Ozkoc_Resume.pdf
     target: "_blank"

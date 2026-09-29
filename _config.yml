@@ -134,9 +134,9 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=OqtWjZUAAAAJ"
-    - label: "CV"
+    - label: "Resume"
       icon: "fas fa-fw fa-file-alt"
-      url: "/assets/docs/Ege_Ozkoc_CV.pdf"
+      url: "/assets/docs/Ege_Ozkoc_Resume.pdf"
 
 # Site Footer
 footer:
